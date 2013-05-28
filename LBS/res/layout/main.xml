@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Included header.xml here -->
+
+    <ViewStub
+        android:id="@+id/vsHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/main_btn_mapview"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/mapview_icon"
+                android:onClick="onButtonClicker"
+                android:text="@string/MapViewActivityTitle" />
+
+            <Button
+                android:id="@+id/main_btn_tracker"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/tracker_icon"
+                android:onClick="onButtonClicker"
+                android:text="@string/TrackerActivityTitle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/main_btn_gingerbread"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/android_gingerbread_logo"
+                android:onClick="onButtonClicker"
+                android:text="@string/GingerbreadActivityTitle" />
+
+            <Button
+                android:id="@+id/main_btn_honeycomb"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/android_honeycomb_logo"
+                android:onClick="onButtonClicker"
+                android:text="@string/HoneycombActivityTitle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/main_btn_ics"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/android_ics_logo"
+                android:onClick="onButtonClicker"
+                android:text="@string/ICSActivityTitle" />
+
+            <Button
+                android:id="@+id/main_btn_jellybean"
+                style="@style/HomeButton"
+                android:drawableTop="@drawable/android_jellybean_logo"
+                android:onClick="onButtonClicker"
+                android:text="@string/JellyBeanActivityTitle" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
