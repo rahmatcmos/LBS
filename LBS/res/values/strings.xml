@@ -10,10 +10,10 @@
     <string name="FeedbackActivityTitle">Feedback</string>
     <string name="MapViewActivityTitle">Show Map</string>
     <string name="TrackerActivityTitle">Tracker</string>
-    <string name="GingerbreadActivityTitle">Gingerbread 2.3.x</string>
-    <string name="HoneycombActivityTitle">Honeycomb 3.x.x</string>
-    <string name="ICSActivityTitle">ICS 4.0.x</string>
-    <string name="JellyBeanActivityTitle">JellyBean (May be 4.1)</string>
+    <string name="CalendarActivityTitle">Calendar</string>
+    <string name="ReportActivityTitle">Report</string>
+    <string name="CustomerActivityTitle">Customer</string>
+    <string name="NotesActivityTitle">Notes</string>
     <string name="action_settings">setting</string>
 
 </resources>

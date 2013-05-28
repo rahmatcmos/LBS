@@ -35,27 +35,27 @@ public class HomeActivity extends DashBoardActivity {
 			break;
 
 		case R.id.main_btn_tracker:
-			intent = new Intent(this, Activity_Froyo.class);
+			intent = new Intent(this, Activity_Tracker.class);
 			startActivity(intent);
 			break;
 			
-		case R.id.main_btn_gingerbread:
-			intent = new Intent(this, Activity_Gingerbread.class);
+		case R.id.main_btn_calendar:
+			intent = new Intent(this, Activity_Calendar.class);
 			startActivity(intent);
 			break;
 			
 		case R.id.main_btn_honeycomb:
-			intent = new Intent(this, Activity_Honeycomb.class);
+			intent = new Intent(this, Activity_Report.class);
 			startActivity(intent);
 			break;
 			
 		case R.id.main_btn_ics:
-			intent = new Intent(this, Activity_ICS.class);
+			intent = new Intent(this, Activity_Customer.class);
 			startActivity(intent);
 			break;
 			
 		case R.id.main_btn_jellybean:
-			intent = new Intent(this, Activity_JellyBean.class);
+			intent = new Intent(this, Activity_Notes.class);
 			startActivity(intent);
 			break;	
 		default:

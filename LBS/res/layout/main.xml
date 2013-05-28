@@ -48,18 +48,18 @@
             android:orientation="horizontal" >
 
             <Button
-                android:id="@+id/main_btn_gingerbread"
+                android:id="@+id/main_btn_calendar"
                 style="@style/HomeButton"
-                android:drawableTop="@drawable/android_gingerbread_logo"
+                android:drawableTop="@drawable/calendar_icon"
                 android:onClick="onButtonClicker"
-                android:text="@string/GingerbreadActivityTitle" />
+                android:text="@string/CalendarActivityTitle" />
 
             <Button
                 android:id="@+id/main_btn_honeycomb"
                 style="@style/HomeButton"
-                android:drawableTop="@drawable/android_honeycomb_logo"
+                android:drawableTop="@drawable/report_icon"
                 android:onClick="onButtonClicker"
-                android:text="@string/HoneycombActivityTitle" />
+                android:text="@string/ReportActivityTitle" />
         </LinearLayout>
 
         <LinearLayout
@@ -71,16 +71,16 @@
             <Button
                 android:id="@+id/main_btn_ics"
                 style="@style/HomeButton"
-                android:drawableTop="@drawable/android_ics_logo"
+                android:drawableTop="@drawable/customer_icon"
                 android:onClick="onButtonClicker"
-                android:text="@string/ICSActivityTitle" />
+                android:text="@string/CustomerActivityTitle" />
 
             <Button
                 android:id="@+id/main_btn_jellybean"
                 style="@style/HomeButton"
-                android:drawableTop="@drawable/android_jellybean_logo"
+                android:drawableTop="@drawable/notes_icon"
                 android:onClick="onButtonClicker"
-                android:text="@string/JellyBeanActivityTitle" />
+                android:text="@string/NotesActivityTitle" />
         </LinearLayout>
     </LinearLayout>
 

@@ -35,23 +35,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity_Froyo"
+            android:name=".Activity_Tracker"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".Activity_Gingerbread"
+            android:name=".Activity_Calendar"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".Activity_Honeycomb"
+            android:name=".Activity_Report"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".Activity_ICS"
+            android:name=".Activity_Customer"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".Activity_JellyBean"
+            android:name=".Activity_Notes"
             android:label="@string/app_name" >
         </activity>
     </application>
