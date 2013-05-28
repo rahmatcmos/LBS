@@ -1,9 +1,5 @@
 package id.ac.itats.skripsi.lbs;
 
-/**
- * @author Paresh N. Mayani
- * http://www.technotalkative.com
- */
 
 import id.ac.itats.skripsi.lbs.R;
 import android.app.Activity;
@@ -15,8 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public abstract class DashBoardActivity extends Activity {
-    /** Called when the activity is first created. */
-    @Override
+     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
@@ -57,7 +52,7 @@ public abstract class DashBoardActivity extends Activity {
      */
     public void btnFeedbackClick(View v)
     {
-    	Intent intent = new Intent(getApplicationContext(), FeedbackActivity.class);
+    	Intent intent = new Intent(getApplicationContext(), SettingActivity.class);
     	startActivity(intent);
     }
 }

@@ -55,7 +55,7 @@
                 android:text="@string/CalendarActivityTitle" />
 
             <Button
-                android:id="@+id/main_btn_honeycomb"
+                android:id="@+id/main_btn_report"
                 style="@style/HomeButton"
                 android:drawableTop="@drawable/report_icon"
                 android:onClick="onButtonClicker"
@@ -69,14 +69,14 @@
             android:orientation="horizontal" >
 
             <Button
-                android:id="@+id/main_btn_ics"
+                android:id="@+id/main_btn_customer"
                 style="@style/HomeButton"
                 android:drawableTop="@drawable/customer_icon"
                 android:onClick="onButtonClicker"
                 android:text="@string/CustomerActivityTitle" />
 
             <Button
-                android:id="@+id/main_btn_jellybean"
+                android:id="@+id/main_btn_notes"
                 style="@style/HomeButton"
                 android:drawableTop="@drawable/notes_icon"
                 android:onClick="onButtonClicker"

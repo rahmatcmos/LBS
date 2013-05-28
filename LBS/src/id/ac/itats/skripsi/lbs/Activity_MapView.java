@@ -69,7 +69,7 @@ public class Activity_MapView extends MapActivity {
 
 	public void btnFeedbackClick(View v) {
 		Intent intent = new Intent(getApplicationContext(),
-				FeedbackActivity.class);
+				SettingActivity.class);
 		startActivity(intent);
 	}
 

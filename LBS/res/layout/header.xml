@@ -51,7 +51,7 @@
             android:id="@+id/btnFeedback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_feedback"
+            android:background="@drawable/ic_settings"
             android:onClick="btnFeedbackClick" />
     </LinearLayout>
 

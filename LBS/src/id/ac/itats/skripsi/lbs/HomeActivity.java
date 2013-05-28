@@ -1,9 +1,5 @@
 package id.ac.itats.skripsi.lbs;
 
-/**
- * @author Paresh N. Mayani
- * http://www.technotalkative.com
- */
 
 import id.ac.itats.skripsi.lbs.R;
 import android.content.Intent;
@@ -11,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 
 public class HomeActivity extends DashBoardActivity {
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,10 +15,6 @@ public class HomeActivity extends DashBoardActivity {
         
     }
     
-    /**
-     * Button click handler on Main activity
-     * @param v
-     */
     public void onButtonClicker(View v)
     {
     	Intent intent;
@@ -44,17 +35,17 @@ public class HomeActivity extends DashBoardActivity {
 			startActivity(intent);
 			break;
 			
-		case R.id.main_btn_honeycomb:
+		case R.id.main_btn_report:
 			intent = new Intent(this, Activity_Report.class);
 			startActivity(intent);
 			break;
 			
-		case R.id.main_btn_ics:
+		case R.id.main_btn_customer:
 			intent = new Intent(this, Activity_Customer.class);
 			startActivity(intent);
 			break;
 			
-		case R.id.main_btn_jellybean:
+		case R.id.main_btn_notes:
 			intent = new Intent(this, Activity_Notes.class);
 			startActivity(intent);
 			break;	

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, DashBoardExampleActivity!</string>
+    <string name="hello">Hello World, Funny</string>
     <string name="app_name">Funny</string>
-    <string name="txtDemo">This is the DashBoard pattern example by Paresh N. Mayani @ www.technotalkative.com </string>
+    <string name="txtDemo"></string>
 
     <!-- Activity Titles -->
     <string name="HomeActivityTitle">LBS | Funny Sales Activity Helper &amp; Tracker</string>
-    <string name="FeedbackActivityTitle">Feedback</string>
+    <string name="SettingActivityTitle">Setting</string>
     <string name="MapViewActivityTitle">Show Map</string>
     <string name="TrackerActivityTitle">Tracker</string>
     <string name="CalendarActivityTitle">Calendar</string>
